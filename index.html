@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tarot by O.S</title>
   <link rel="stylesheet" href="css/style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -12,14 +17,14 @@
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#readings">Readings</a></li>
-        <li><a href="#booking">Book</a></li>
+        <li><a href="#form">Book</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div class="hero">
       <h1>Unlock Your Path Through the Cards</h1>
       <p>Personalized Tarot Readings by Slade</p>
-      <a href="#booking" class="cta">Book a Reading</a>
+      <a href="#form" class="cta">Book a Reading</a>
     </div>
   </header>
 
@@ -38,12 +43,12 @@
     </div>
   </section>
 
-  <section id="booking">
+  <section id="form">
     <h2>Book a Reading</h2>
-    <form>
+    <form action="https://formspree.io/f/xldjbwjr" method="POST">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
-      <select name="reading-type">
+      <select name="reading-type" required>
         <option value="">Select a Reading</option>
         <option value="1card">1-Card Pull</option>
         <option value="3card">3-Card Spread</option>
