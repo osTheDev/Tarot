@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarot by O.S</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#readings">Readings</a></li>
+        <li><a href="#booking">Book</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Unlock Your Path Through the Cards</h1>
+      <p>Personalized Tarot Readings by O.S</p>
+      <a href="#booking" class="cta">Book a Reading</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m O.S — I read tarot through intuition, vibes, and a little chaos magic. My readings are raw, real, and meant to leave you thinking.</p>
+  </section>
+
+  <section id="readings">
+    <h2>Readings Offered</h2>
+    <div class="cards">
+      <div class="card"><h3>1-Card Pull</h3><p>Quick insight, fast clarity.</p></div>
+      <div class="card"><h3>3-Card Spread</h3><p>Past, Present, Future in one sweep.</p></div>
+      <div class="card"><h3>Celtic Cross</h3><p>In-depth look at your journey.</p></div>
+      <div class="card"><h3>Custom Reading</h3><p>You ask, I answer — your way.</p></div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Book a Reading</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <select name="reading-type">
+        <option value="">Select a Reading</option>
+        <option value="1card">1-Card Pull</option>
+        <option value="3card">3-Card Spread</option>
+        <option value="celtic">Celtic Cross</option>
+        <option value="custom">Custom Reading</option>
+      </select>
+      <textarea name="message" placeholder="Your question or vibe..." required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Tarot by O.S • For entertainment purposes only</p>
+  </footer>
+</body>
+</html>
